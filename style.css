@@ -1,0 +1,56 @@
+body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 0;
+        }
+header {
+            background-color: #3a2217;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+nav {
+            background-color: #482f23;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 50px;
+            text-align: center;
+            min-height: 100vh;
+        }
+        #home { background-color: #fffacd; }
+        #about { background-color: #e6e6fa; }
+        #skills { background-color: #d3d3d3; }
+        #portfolio { background-color: #ffe4e1; }
+        #contact { background-color: #afc6ee; }
+img {
+            width: 200px;
+            height: auto;
+            border-radius: 50%;
+            animation: bounce 2s infinite;
+        }
+.joke {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px auto;
+            width: 80%;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+footer {
+            background-color: #ff69b4;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
